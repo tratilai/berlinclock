@@ -24,7 +24,7 @@ O = Off
 http://a1.mzstatic.com/us/r30/Purple4/v4/f8/27/8a/f8278af9-4aed-82fc-80a8-3eea0fd75320/screen480x480.jpeg
 
 
-1) Tee convertToBerlinTime(String  -metodi, joka saa normaaliajan ja palauttaa Berliinin kellon mukaisen ajan.
+1) Tee convertToBerlinTime(String inputTime) -metodi, joka saa normaaliajan ja palauttaa BerlinClock:n mukaisen ajan.
 
 String[] berlinTime = berlinClock.convertToBerlinTime("16:37:16");
 String[] expected = new String[] {"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"};

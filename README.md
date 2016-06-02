@@ -18,10 +18,11 @@ The other lamps are yellow. In the last row with 4 lamps every lamp represents 1
 The lamps are switched on from left to right.
 
 Y = Yellow
+
 R = Red
+
 O = Off
 
-[http://a1.mzstatic.com/us/r30/Purple4/v4/f8/27/8a/f8278af9-4aed-82fc-80a8-3eea0fd75320/screen480x480.jpeg]
 
 ![alt text](http://a1.mzstatic.com/us/r30/Purple4/v4/f8/27/8a/f8278af9-4aed-82fc-80a8-3eea0fd75320/screen480x480.jpeg)
 

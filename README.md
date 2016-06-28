@@ -28,7 +28,7 @@ O = Off
 
 TEHTÄVÄT:
 
-1) Toteuta `String[] berlinTime = convertToBerlinTime(String inputTime)` julkinen metodi, joka saa normaaliajan ja palauttaa BerlinClock:n mukaisen ajan. Esimerkki syötteestä: ```"16:37:16"```, joka palauttaa taulukon ```{"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"}```. Käytä testilähtöistä kehitystapaa (TDD), elikkäs testaa ja toteuta aina pieni osa ratkaisua kerrallaan.
+1) Toteuta `String[] berlinTime = convertToBerlinTime(String inputTime)` julkinen metodi, joka saa normaaliajan ja palauttaa BerlinClock:n mukaisen ajan. Esimerkki syötteestä: ```"16:37:16"```, joka palauttaa taulukon ```{"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"}```. Käytä testilähtöistä kehitystapaa (TDD): testaa ja toteuta aina pieni osa ratkaisua kerrallaan.
 
 2) Miten refaktoroisit annettua rajapintaa?
 

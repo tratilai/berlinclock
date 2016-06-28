@@ -28,12 +28,7 @@ O = Off
 
 TEHTÄVÄT:
 
-1) Toteuta `convertToBerlinTime(String inputTime)` julkinen metodi, joka saa normaaliajan ja palauttaa BerlinClock:n mukaisen ajan. Käytä testilähtöistä kehitystapaa (TDD). Käyttöesimerkki:
-
-```
-String[] berlinTime = berlinClock.convertToBerlinTime("16:37:16");
-String[] expected = new String[] {"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"};
-```
+1) Toteuta `String[] berlinTime = convertToBerlinTime(String inputTime)` julkinen metodi, joka saa normaaliajan ja palauttaa BerlinClock:n mukaisen ajan. Esimerkki syötteestä: ```"16:37:16"```, joka palauttaa taulukon ```{"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"}```. Käytä testilähtöistä kehitystapaa (TDD) testaten ja toteutten aina pienen osan ratkaisua kerrallaan.
 
 2) Miten refaktoroisit annettua rajapintaa?
 

@@ -26,12 +26,12 @@ O = Off
 
 ![alt text](http://a1.mzstatic.com/us/r30/Purple4/v4/f8/27/8a/f8278af9-4aed-82fc-80a8-3eea0fd75320/screen480x480.jpeg)
 
-TEHTÄVÄT:
+TASKS:
 
-1) Toteuta `String[] berlinTime = convertToBerlinTime(String inputTime)` julkinen metodi, joka saa normaaliajan ja palauttaa BerlinClock:n mukaisen ajan. Esimerkki syötteestä: ```"16:37:16"```, joka palauttaa taulukon ```{"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"}```. Käytä testilähtöistä kehitystapaa (TDD): testaa ja toteuta aina pieni osa ratkaisua kerrallaan.
+1) Implement `String[] berlinTime = convertToBerlinTime(String normalInputTime)` public method, which returns given normal time in Berlin Clock time format. Example input ```"16:37:16"``` and return array is  ```{"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"}```.
 
-2) Miten refaktoroisit annettua rajapintaa?
+2) How would you refactor the given interface?
 
-3) Miten toteuttaisit oheisen palvelun verkkopalveluksi, jota kutsuttaisiin tuhansia kertoja sekunnissa?
+3) How would you implement Berlin Clock as a web service called thousands of times per second?
 
 

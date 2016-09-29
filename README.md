@@ -23,12 +23,19 @@ R = Red
 
 O = Off
 
+For example, in the following picture the time is: 19:42, calculated like this:
+
+3 x 5 h = 15 h
+4 x 1 h = 4 h
+8 x 5 min = 40 min
+2 x 1 min = 2 min
+The second ligth is on, meaning any even second.
 
 ![alt text](http://a1.mzstatic.com/us/r30/Purple4/v4/f8/27/8a/f8278af9-4aed-82fc-80a8-3eea0fd75320/screen480x480.jpeg)
 
 TASKS:
 
-1) Implement `String[] berlinTime = convertToBerlinTime(String normalInputTime)` public method, which returns given normal time in Berlin Clock time format. Example input ```"16:37:16"``` and return array is  ```{"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"}```.
+1) Implement `String[] berlinTime = convertToBerlinTime(String normalInputTime)` public method, which returns given normal time in Berlin Clock time format. Example input ```"16:37:16"``` and return array is  ```{"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"}```. **Use Test Driven Development (TDD).**
 
 2) How would you refactor the given interface?
 

@@ -23,7 +23,7 @@ R = Red
 
 O = Off
 
-For example, in the following picture the time is: 19:42, calculated like this:
+For example, in the following picture the time is 19:42 and it is calculated like this:
 
 ```
 3 x 5 h = 15 h

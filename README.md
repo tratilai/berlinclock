@@ -37,7 +37,7 @@ The top lamp is on, meaning any even second.
 
 TASKS:
 
-1) Implement `String[] berlinTime = convertToBerlinTime(String normalInputTime)` public method, which returns given normal time in Berlin Clock time format. Example input ```"16:37:16"``` and return array is  ```{"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"}```. **Use Test Driven Development (TDD).**
+1) Implement `String[] berlinTime = convertToBerlinTime(String normalInputTime)` public method, which returns given normal time in Berlin Clock time format. Example input ```"16:37:16"``` and return array is  ```{"Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"}```. **Use Test Driven Development (TDD).** Use JUnit for testing. You only have to run unit tests in this exercise, not the actual Berlin Clock code.
 
 2) How would you refactor the given interface?
 
